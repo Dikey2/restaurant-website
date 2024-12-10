@@ -1,0 +1,80 @@
+/* Contenedor general */
+.order-here-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Sección de contenido */
+.order-here-content {
+  max-width: 50%;
+}
+
+.order-here-content .back-to-menu {
+  color: #ff6600;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.order-here-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.order-here-content p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Botones de opciones */
+.order-options {
+  display: flex;
+  gap: 15px;
+}
+
+.order-option {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.order-option.delivery {
+  background-color: #ff6600;
+  color: white;
+}
+
+.order-option.pickup {
+  background-color: white;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+}
+
+.order-option:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Sección de imagen */
+.order-here-image {
+  max-width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order-here-image img {
+  width: 90%;
+  border-radius: 15px;
+}
+
+  

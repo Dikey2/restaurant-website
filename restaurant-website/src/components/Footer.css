@@ -1,0 +1,40 @@
+.contact-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #1ebc57;
+  }
+  
+  .whatsapp-icon {
+    width: 24px; /* Ajusta el ancho */
+    height: 24px; /* Ajusta la altura */
+    margin-right: 10px;
+    object-fit: contain;
+  }
+  
+  

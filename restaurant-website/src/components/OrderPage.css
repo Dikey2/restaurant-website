@@ -1,0 +1,68 @@
+.order-here-container {
+  text-align: center;
+  padding: 2rem;
+  background: url('../assets/images/come.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  color: #fff; /* Cambia el color del texto para mejor contraste */
+}
+
+/* Ajustar título para destacarlo en el fondo */
+.order-title {
+  font-size: 3rem; /* Tamaño un poco mayor */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para visibilidad sobre el fondo */
+}
+
+/* Ajustar descripción */
+.order-description {
+  font-size: 1.2rem;
+  color: #f9f9f9; /* Texto más claro */
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Contenedor de opciones */
+.order-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Tarjetas de opciones */
+.order-card {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+  border: 2px solid rgba(238, 238, 238, 0.8); /* Bordes con opacidad */
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 300px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Título en cada tarjeta */
+.order-card-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #ff6f00;
+}
+
+/* Descripción dentro de las tarjetas */
+.order-card-content p {
+  font-size: 1rem;
+  color: #777;
+}
+
+
+
+
+
+
+  

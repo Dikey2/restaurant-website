@@ -1,0 +1,46 @@
+.contact-container {
+  background-image: url("../assets/images/ofer.jpg");
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita repeticiones */
+  z-index: -1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .map-container {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .info-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .info-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .info-section p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  

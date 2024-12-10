@@ -1,0 +1,20 @@
+.help-assistant {
+    text-align: center;
+  }
+  
+  .help-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .help-button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,94 @@
+  .offers {
+  background-image: url("../assets/images/ofer.jpg");
+  padding: 20px;
+  text-align: center;
+}
+
+.offers-slider {
+  position: relative;
+  padding: 0 20px; /* Espaciado lateral del carrusel */
+}
+
+.offer-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 180px; /* Fija el ancho */
+  height: 580px; /* Fija la altura */
+  margin: 15px 50px; /* Espaciado entre las tarjetas */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.offer-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.offer-details {
+  flex-grow: 1;
+}
+
+.offer-price {
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.offer-actions {
+  margin-top: auto;
+}
+
+.add-to-cart-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #007bff;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.arrow.prev {
+  left: -30px; /* Ajusta el margen de las flechas previas */
+}
+
+.arrow.next {
+  right: -30px; /* Ajusta el margen de las flechas siguientes */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  

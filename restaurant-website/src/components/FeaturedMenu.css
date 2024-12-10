@@ -1,0 +1,53 @@
+.featured-menu {
+    background-color: #000; /* Fondo negro */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .featured-menu h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff; /* Texto blanco */
+    margin-bottom: 20px;
+    text-align: center; /* Asegura que el texto esté centrado */
+  }
+  
+  .menu-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-card {
+    width: 490px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fondo blanco para las tarjetas */
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .menu-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #000; /* Texto negro */
+  }
+  
+  .menu-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  
+  
+  
+  

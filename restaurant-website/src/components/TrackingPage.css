@@ -1,0 +1,69 @@
+.tracking-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .tracking-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .progress-bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .progress-line {
+    width: 80%;
+    height: 4px;
+    background-color: #ddd;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .progress-fill {
+    height: 4px;
+    background-color: #28a745;
+    transition: width 0.4s ease;
+  }
+  
+  .progress-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .step-icon {
+    font-size: 2.5rem;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .step-icon.active {
+    border-color: #28a745;
+    background-color: #e6ffe6;
+  }
+  
+  .step-label {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  
+  
